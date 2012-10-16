@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/RestKit/RKJSONKitSerialization.git" }
   s.source_files = '*.{h,m}'
   
-  s.dependency 'RestKit', '>= 0.20.0'
+  s.dependency 'RestKit', '>= 0.20.0dev'
   s.dependency 'JSONKit', '>= 1.5pre'
 end
